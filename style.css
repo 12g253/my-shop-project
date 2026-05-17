@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(245, 245, 250);
+}
+
+nav ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgb(0, 102, 204);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(220, 230, 240);
+    padding: 8px;
+}
+
+.short-desc {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full-desc {
+    color: rgb(40, 40, 40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specs-list {
+    color: rgb(0, 50, 100);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px 15px 35px;
+    border: 1px solid rgb(200, 200, 200);
+    list-style-image: url('https://img.icons8.com/office/16/000000/checkmark.png');
+}
+
+.specs-list li {
+    margin-bottom: 5px;
+}
+.catalog-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+.catalog-section {
+    width: 65%;
+}
+
+.cart-section {
+    width: 30%;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.filter-box {
+    margin-bottom: 20px;
+}
+
+#products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 10px;
+    width: 180px;
+    background-color: white;
+}
+
+.price {
+    font-weight: bold;
+    color: rgb(0, 102, 51);
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#cart-items button {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
