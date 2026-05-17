@@ -75,6 +75,6 @@ document.querySelector("#category-filter").addEventListener("change", applyFilte
 document.querySelectorAll(".add-to-cart-btn").forEach(btn => btn.addEventListener("click", addToCart));
 document.querySelector("#pay-btn").addEventListener("click", processPayment);
 document.querySelector("#clear-cart-btn").addEventListener("click", clearCart);
-
+let cr = [];
 // Запускаем инициализацию при старте страницы
 init();
